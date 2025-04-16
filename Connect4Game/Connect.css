@@ -1,0 +1,30 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #FFC0D9;
+    color: #2F3645;
+}
+
+#board {
+    height: 540px;
+    width: 630px;
+    background-color: #8ACDD7;
+    border: 10px solid #51aebc;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tile{
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid #51aebc;
+}
+.red-piece{
+    background-color: #59f94d ;
+}
+.yellow-piece{
+    background-color: yellow;
+}
